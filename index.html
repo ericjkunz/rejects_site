@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Rejects: SMS Filter App</title>
+    <meta name="description" content="The Rejects app">
+    <meta name="author" content="Eric Kunz">
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+    <h1>Rejects App</h1>
+    <h3>The simple, private, regex junk sms app.</h3>
+
+    <div id='images'>
+        <picture id='main'>
+            <source srcset="images/main_dark.png" media="(prefers-color-scheme: dark)" />
+            <source srcset="images/main_light.png"
+                media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+            <img src="images/main_light.png" id="screenshot" loading="lazy" width="300" />
+        </picture>
+        <picture id='new'>
+            <source srcset="images/new_dark.png" media="(prefers-color-scheme: dark)" />
+            <source srcset="images/new_light.png"
+                media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+            <img src="images/new_light.png" id="screenshot" loading="lazy" width="300" />
+        </picture>
+
+        <picture id='messages'>
+            <source srcset="images/messages_dark.png" media="(prefers-color-scheme: dark)" />
+            <source srcset="images/messages_light.png"
+                media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+            <img src="images/messages_light.png" id="screenshot" loading="lazy" width="300" />
+        </picture>
+    </div>
+    <a href="https://apple.com" target="_blank">
+        <img src='images/download_on_app_store_black.svg' width="240">
+    </a>
+    <p id="about">
+        Know how to use regex? Annoyed by junk text messages? This app is for you.
+    </p>
+    <p id="about">
+        Privacy focused - none of your data is saved or leaves the device.
+    </p>
+    <p id="about">
+        Regex based - Use any ICU regular expression to filter messages.
+    </p>
+    <a href="https://twitter.com/ericjkunz?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @ericjkunz</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+
+</html>
